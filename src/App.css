@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: #262626;
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+}
+
+.TodoForm {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.Todo {
+  background: #262626;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.todo-input {
+  width: 100%;
+  outline: none;
+  background: none;
+  border: 1px solid #1aa7ff;
+  padding: 0.5rem 1rem;
+  margin-block: 0;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+.todo-btn {
+  min-width: 91px;
+  background: #0289dd;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+
+.filter-todo Button {
+  width: 100%;
+  border-radius: 0;
+  background-color: #0289dd;
+}
+
+.todo-icon {
+  cursor: pointer;
+}
+
+.filter-icon {
+  min-width: 71px;
+}
+
+.complete {
+  color: #1aa7ff;
+  word-wrap: break-word;
+}
