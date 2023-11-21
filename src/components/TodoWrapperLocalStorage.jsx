@@ -130,7 +130,7 @@ export const TodoWrapperLocalStorage = () => {
   return (
     <Card border="info" className="d-flex my-5 mx-3">
       <div
-        className="TodoWrapper text-center md:px-5 py-5 px-3 rounded-2"
+        className="TodoWrapper text-center px-sm-5 py-5 px-3 rounded-2"
         style={{ backgroundColor: "#191919" }}
       >
         <h1 className="text-light fw-bold fs-2 mb-3">
